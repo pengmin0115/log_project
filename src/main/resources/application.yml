@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: login
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/practice
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+# log的配置会优先加载对应的日志配置文件中的配置;
+#logging:
+#  level.com.log: info
