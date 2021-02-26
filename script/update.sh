@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 cd ~
-cd logging
+cd log_project
 git pull
-# git clone https://gitee.com/pengmin01/logging.git
+# git clone https://github.com/pengmin0115/log_project.git
 mvn spring-boot:run
